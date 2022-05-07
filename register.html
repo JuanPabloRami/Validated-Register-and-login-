@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="login.html"><p>Login</p></a>
+        <a href="register.html"><p>Register</p></a>
+    </nav>
+    <section>
+        <div class="bienvenida">
+            <h1>Registrate</h1>
+        </div>
+        
+        <div class="formulario">
+            <label for="InputName">Nombre completo</label>
+            <input  id="InputName" type="text" placeholder="Ejemplo: Juan Pablo Ramirez" minlength="3">
+            <p id="NameErrorOutput"></p>
+            <label for="InputUsername">Nombre de usuario</label>
+            <input  id="InputUsername" type="text" placeholder="Ejemplo: JuapaTuPadre">
+            <label for="InputEmail">Correo electronico</label>
+            <input id="InputEmail" type="email" placeholder="Ejemplo: juanpa@gmail.com">
+            <label for="InputPw">Contraseña</label>
+            <input id="InputPw" type="password" placeholder="Ejemplo: contraseñaHackeable1234">
+            <label for="InputPwConfirm">Confirmar Contraseña</label>
+            <input id="InputPwConfirm" type="password" placeholder="Pues lo mismo de arriba man.">
+
+            <button id = "ButtonMessage" type="submit">Registrate</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
